@@ -451,10 +451,17 @@ nav a:hover::after {
   gap: 1rem;
 }
 
-.review-form input, .review-form textarea {
+.review-form input{
   padding: 0.75rem;
   border-radius: 5px;
   border: 1px dotted #ccc;
+}
+
+.review-form textarea{
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px dotted #ccc;
+  height: 200px;
 }
 
 .review-form button {
@@ -467,6 +474,7 @@ nav a:hover::after {
   padding: 0.8rem 1.5rem;
   border-radius: 5px;
   cursor: pointer;
+  width: min-content;
 }
 
 footer {
