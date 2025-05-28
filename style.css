@@ -548,5 +548,28 @@ footer {
     height: 3px;
     background-color: #fff;
   }
+
+  .hero-section {
+    padding: 80px 1rem 2rem;
+    text-align: center;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+  }
+
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-image img {
+    max-width: 200px;
+  }
 }
 
