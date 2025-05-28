@@ -515,7 +515,7 @@ footer {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .media-card {
     left: 50px;
     width: 100%;
