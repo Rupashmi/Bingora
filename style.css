@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}s
+}
 
 body {
   font-family: 'Outfit', sans-serif;
@@ -202,7 +202,6 @@ nav a:hover::after {
 }
 
 
-
 .media-section {
   padding: 4rem 2rem;
   background-image: url(images/bg2.jpeg);
@@ -241,13 +240,13 @@ nav a:hover::after {
 .media-card {
   flex: 0 0 auto;
   width: 200px;
-  height: auto;
+  height: 25rem;
   background: #06dff338;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
   left: 50px;
-  right: 50px;
+  right: 100px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   transition: transform 0.3s;
 }
@@ -525,19 +524,36 @@ footer {
 
 
 @media (max-width: 768px) {
-  nav ul {
+  .container {
+    padding: 1rem;
     flex-direction: column;
-    background: #1e272e;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
-    display: none;
+    align-items: center;
   }
-  .nav-toggle:checked + nav ul {
-    display: flex;
+
+  .hero-section h1 {
+    font-size: 1.5rem;
+    text-align: center;
   }
-  .hamburger {
-    display: flex;
+
+  .hero-section p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 1rem;
   }
 }
+
