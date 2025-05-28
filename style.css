@@ -237,13 +237,13 @@ nav a:hover::after {
 
 .media-card {
   flex: 0 0 auto;
-  width: 200px;
-  height: 25rem;
+  width: 18.75rem;
+  height: auto;
   background: #06dff338;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
-  left: 50px;
+  left: 80px;
   right: 100px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   transition: transform 0.3s;
